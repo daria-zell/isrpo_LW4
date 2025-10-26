@@ -70,3 +70,6 @@ class RectangleTestCase(unittest.TestCase):
             perimeter(10, "10")
         with self.assertRaises(TypeError):
             perimeter("10", "10")
+
+if __name__ == '__main__':
+    unittest.main()
